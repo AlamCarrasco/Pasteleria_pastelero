@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content=" IE=edge">
+    <meta name="viwport" content = "width=device-width, initial-scale=1.0"> 
+    <link rel="icon" type="image/x.icon" href="logo.png">
+    <title> Inicio/Administrador </title>
+
+
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family:Georgia, 'Times New Roman', Times, serif
+    
+    }
+    /*Estilo de header*/
+    header{
+        background: linear-gradient(black, pink);
+        text-align: center;
+        color: white;
+    }
+    /*nuevo página raul perez*/
+    #logo {
+        margin:auto; 
+        height: 200px;
+        width: 450px;
+        background-image: url(logo.png) ; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        
+    }
+    #logo h2{ 
+        font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+        font-size: 30px;
+        
+    }
+    nav {
+        float: center;
+        height: 75px;
+        background: #blue;
+        text-align: center;
+    }
+    nav ul {
+        list-style-type: none;
+        display: inline-block;
+        padding: 18px;
+    }
+    nav ul li {
+        float: left;
+        margin-top: 20px;
+    }
+    nav ul li a { 
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 18px;
+
+    }
+    nav ul li a:hover{ 
+        background-color: #929fb3;
+        height: 60px;
+    }
+    /*mios*/
+    th {
+        background-color: #55736B;
+        color: black;
+        text-align: center;
+    }
+    td{
+        background-color:#929fb3;
+        color: black;
+    }
+    h1 {
+        background-color: #0D2922;
+        height: 40px;
+        text-align: center;
+        color: white;
+        text-size-adjust: 100px ;
+
+    }
+
+    table{
+        background-color: #092834;
+        text-align: center;
+        tab-size: 30px;
+        block-size: 40px;
+        
+    }
+
+    /*Estilo de footer*/
+    footer{
+        background: linear-gradient(pink, black);
+        padding: 25px;
+        height:fit-content
+
+    }
+    #redes {
+        text-align: center;
+        background-color: #092834;
+    }
+</style>
+
+</head>
+<body>
+
+
+<header>  <!-- Logo y titulo -->
+    <div id ="logo"> </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a> </li>
+            <li> <a href="administrador-inventario.html">Inventario</a> </li>
+            
+
+
+        </ul>
+    </nav>
+<h1> Pedidos </h1>
+<table style="margin: 0 auto;">
+    <tr>
+        <th>Nombre</th>
+        <th>Teléfono</th>
+        <th>E-mail</th>
+        <th>Descripción del pastel</th>
+        <th>Tamaño</th>
+        <th>Sabores</th>
+        <th>Adornos </th>
+        <th>Fecha de entrega </th>
+    </tr>
+    <tr>
+        <td> Luisa Ramirez Delgado</td>
+        <td> 5572813294</td>
+        <td> luisar21@gmail.com</td>       
+        <td> Feliz Cumpleaños Mamá</td>
+        <td> 25cm </td>
+        <td> Chocolate </td>
+        <td> Chispas</td>
+        <td>10/03/2022</td>
+ 
+    </tr>
+
+
+</table>
+
+<table class="table">
+        <caption><h2>Inventario</h2></caption>
+        <tr>
+          <th>Producto</th>
+          <th>Stock per grams</th>
+        </tr>
+        <tr>
+          <td>Chocolate</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Vainilla</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Fresa</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Red velvet</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>chispitas</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>crema</td>
+          <td>890</td>
+        </tr>
+        <tr>
+          <td>merengue</td>
+          <td>45</td>
+        </tr>
+        <tr>
+          <td>plutonio</td>
+          <td>70</td>
+        </tr>
+      </table>
+
+
+</header> 
+
+
+
+
+
+
+
+<footer> 
+    <h1> Contacto</h1>
+    <h2 style="background-color: #55736B; text-align: center;"> Uraraka-Chan Bakery Co.</h2>
+
+  <p>Fracc. Titan de Ataque </p>
+        <p>Teléfono 656-6-666-666</p>
+        <p>Hoario de atención: 8 am - 6:30 pm</p>       
+         
+     </p>
+
+        
+    </footer>
+
+</body>
+</html>
